@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:id="@+id/tvName"
+            android:textStyle="bold"
+            android:textSize="22dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginBottom="20dp"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:gravity="center">
+
+        </TextView>
+        <com.shinelw.library.ColorArcProgressBar
+            android:layout_width="300dp"
+            android:layout_height="300dp"
+            android:layout_gravity="center_horizontal"
+            android:id="@+id/progressBar"
+            app:is_need_content="true"
+            app:front_color1="#69cbd2"
+            app:front_color2="#7eb6e2"
+            app:front_color3="#989df7"
+            app:max_value="100"
+            app:back_width="2dp"
+            app:front_width="10dp"
+            app:total_engle="270"
+            app:is_need_unit="true"
+            app:string_unit=""
+            app:is_need_title="true"
+            app:string_title=""
+            app:back_color="@android:color/darker_gray"
+            android:layout_marginBottom="150dp"
+            />
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>
